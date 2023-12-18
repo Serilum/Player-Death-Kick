@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Player%20Death%20Kick"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Player%20Death%20Kick"
 logoFile="icon.png"
 
 [[mods]]
 modId="playerdeathkick"
-version="3.1"
+version="3.2"
 displayName="Player Death Kick"
-displayURL="https://curseforge.com/minecraft/mc-mods/player-death-kick"
+displayURL="https://serilum.com/mod/player-death-kick"
 authors="Rick South"
 description='''Kicks players on death with a customizable disconnect message.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.playerdeathkick]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.playerdeathkick]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.1]"
     ordering="NONE"
