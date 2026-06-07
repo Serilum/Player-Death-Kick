@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "playerdeathkick",
-  "version": "3.4",
+  "version": "3.5",
 
   "name": "Player Death Kick",
   "description": "Kicks players on death with a customizable disconnect message.",
@@ -23,7 +23,7 @@
     "fabric-api": "*",
     "minecraft": ">=26.1",
     "java": ">=25",
-    "collective": ">=8.17"
+    "collective": ">=8.25"
   },
 
   "custom": {
@@ -41,15 +41,12 @@
 	  "If you would like to contribute too, check out https://serilum.com/donate.",
 	  " ",
 	  "Membership sponsors:",
-	  " akanealw",
-	  " Alister",
 	  " Andrean Olgo",
 	  " aternosorg",
 	  " Cherriesaurus",
+	  " Linda Jansen",
+	  " Michelle Smith",
 	  " MWS",
-	  " t128",
-	  " Tyler Behl",
-	  " XAgent",
-	  " ตัวตรึง พระนคร"
+	  " Tyler Behl"
   ]
 }

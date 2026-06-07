@@ -1,4 +1,5 @@
 package com.natamus.playerdeathkick.events;
+import com.natamus.collective.functions.MessageFunctions;
 
 import com.natamus.collective.functions.StringFunctions;
 import com.natamus.playerdeathkick.config.ConfigHandler;
@@ -48,7 +49,7 @@ public class DeathEvent {
 		
 		if (ConfigHandler.broadcastKickToServer) {
 			String playername = serverplayer.getName().getString();
-			StringFunctions.broadcastMessage(world, "The player " + playername + " has died and been kicked from the server.", ChatFormatting.DARK_GRAY);
+			MessageFunctions.broadcastTranslatableMessage(world, "collective.playerdeathkick.message.playerdiedkicked", ChatFormatting.DARK_GRAY, playername);
 		}
 	}
 }

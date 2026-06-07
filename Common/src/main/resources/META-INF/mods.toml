@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="playerdeathkick"
-version="3.4"
+version="3.5"
 displayName="Player Death Kick"
 displayURL="https://serilum.com/mod/player-death-kick"
 authors="Rick South"
@@ -14,7 +14,7 @@ description='''Kicks players on death with a customizable disconnect message.
 '''
 credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
 
-akanealw, Alister, Andrean Olgo, aternosorg, Cherriesaurus, MWS, t128, Tyler Behl, XAgent, ตัวตรึง พระนคร   
+Andrean Olgo, aternosorg, Cherriesaurus, Linda Jansen, Michelle Smith, MWS, Tyler Behl   
 
 If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
 '''
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.playerdeathkick]]
     modId="collective"
     mandatory=true
-    versionRange="[8.17,)"
+    versionRange="[8.25,)"
     ordering="NONE"
     side="BOTH"
 
