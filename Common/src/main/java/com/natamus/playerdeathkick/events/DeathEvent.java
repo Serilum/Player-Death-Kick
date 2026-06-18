@@ -1,7 +1,6 @@
 package com.natamus.playerdeathkick.events;
 import com.natamus.collective.functions.MessageFunctions;
 
-import com.natamus.collective.functions.StringFunctions;
 import com.natamus.playerdeathkick.config.ConfigHandler;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
