@@ -27,11 +27,10 @@ public class ModFabric implements ModInitializer {
 	}
 
 	private void loadEvents() {
-		ServerLivingEntityEvents.ALLOW_DEATH.register((LivingEntity livingEntity, DamageSource damageSource, float damageAmount) -> {
+		ServerLivingEntityEvents.AFTER_DEATH.register((LivingEntity livingEntity, DamageSource damageSource) -> {
 			if (livingEntity instanceof ServerPlayer) {
-				DeathEvent.onDeathEvent((ServerPlayer)livingEntity, damageSource, damageAmount);
+				DeathEvent.onDeathEvent((ServerPlayer)livingEntity, damageSource);
 			}
-			return true;
 		});
 	}
 

@@ -20,6 +20,6 @@ public class NeoForgeDeathEvent {
 			return;
 		}
 
-		DeathEvent.onDeathEvent((ServerPlayer)entity, e.getSource(), 0);
+		DeathEvent.onDeathEvent((ServerPlayer)entity, e.getSource());
 	}
 }
