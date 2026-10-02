@@ -1,10 +1,10 @@
-package com.natamus.playerdeathkick;
+package com.serilum.playerdeathkick;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.playerdeathkick.forge.config.IntegrateForgeConfig;
-import com.natamus.playerdeathkick.forge.events.ForgeDeathEvent;
-import com.natamus.playerdeathkick.util.Reference;
+import com.serilum.playerdeathkick.forge.config.IntegrateForgeConfig;
+import com.serilum.playerdeathkick.forge.events.ForgeDeathEvent;
+import com.serilum.playerdeathkick.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -30,7 +30,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeDeathEvent.registerEventsInBus();
+		ForgeDeathEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

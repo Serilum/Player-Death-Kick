@@ -1,7 +1,7 @@
-package com.natamus.playerdeathkick.config;
+package com.serilum.playerdeathkick.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.playerdeathkick.util.Reference;
+import com.serilum.playerdeathkick.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
