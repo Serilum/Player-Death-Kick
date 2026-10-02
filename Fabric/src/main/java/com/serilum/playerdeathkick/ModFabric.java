@@ -1,9 +1,9 @@
-package com.natamus.playerdeathkick;
+package com.serilum.playerdeathkick;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.playerdeathkick.events.DeathEvent;
-import com.natamus.playerdeathkick.util.Reference;
+import com.serilum.playerdeathkick.events.DeathEvent;
+import com.serilum.playerdeathkick.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.entity.event.v1.ServerLivingEntityEvents;
 import net.minecraft.server.level.ServerPlayer;
