@@ -11,7 +11,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.Level;
 
 public class DeathEvent {
-	public static void onDeathEvent(ServerPlayer serverplayer, DamageSource source, float damageAmount) {
+	public static void onDeathEvent(ServerPlayer serverplayer, DamageSource source) {
 		if (ConfigHandler.exemptAdminPlayers) {
 			if (serverplayer.permissions().hasPermission(Permissions.COMMANDS_ADMIN)) {
 				return;
