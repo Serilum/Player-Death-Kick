@@ -1,6 +1,6 @@
-package com.natamus.playerdeathkick;
+package com.serilum.playerdeathkick;
 
-import com.natamus.playerdeathkick.config.ConfigHandler;
+import com.serilum.playerdeathkick.config.ConfigHandler;
 
 public class ModCommon {
 

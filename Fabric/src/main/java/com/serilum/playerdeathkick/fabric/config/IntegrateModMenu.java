@@ -1,7 +1,7 @@
-package com.natamus.playerdeathkick.fabric.config;
+package com.serilum.playerdeathkick.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.playerdeathkick.util.Reference;
+import com.serilum.playerdeathkick.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

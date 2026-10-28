@@ -1,7 +1,7 @@
-package com.natamus.playerdeathkick.forge.config;
+package com.serilum.playerdeathkick.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.playerdeathkick.util.Reference;
+import com.serilum.playerdeathkick.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

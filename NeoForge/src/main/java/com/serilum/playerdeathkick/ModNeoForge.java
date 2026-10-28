@@ -1,10 +1,10 @@
-package com.natamus.playerdeathkick;
+package com.serilum.playerdeathkick;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.playerdeathkick.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.playerdeathkick.neoforge.events.NeoForgeDeathEvent;
-import com.natamus.playerdeathkick.util.Reference;
+import com.serilum.playerdeathkick.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.playerdeathkick.neoforge.events.NeoForgeDeathEvent;
+import com.serilum.playerdeathkick.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;

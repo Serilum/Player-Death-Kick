@@ -1,6 +1,6 @@
-package com.natamus.playerdeathkick.forge.events;
+package com.serilum.playerdeathkick.forge.events;
 
-import com.natamus.playerdeathkick.events.DeathEvent;
+import com.serilum.playerdeathkick.events.DeathEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.Level;
@@ -29,6 +29,6 @@ public class ForgeDeathEvent {
 			return;
 		}
 
-		DeathEvent.onDeathEvent((ServerPlayer)entity, e.getSource(), 0);
+		DeathEvent.onDeathEvent((ServerPlayer)entity, e.getSource());
 	}
 }
